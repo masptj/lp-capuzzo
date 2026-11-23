@@ -1,0 +1,18 @@
+Página de vendas: Implante dentário em São Bernardo do Campo (Clínica Capuzzo)
+
+Conteúdo
+- index.html: a página (HTML e CSS no mesmo arquivo, com um script curto para o formulário).
+- img/: fotos e logo usados na página.
+- favicon.png: ícone da aba do navegador.
+- robots.txt: bloqueia o Google enquanto a página está em aprovação.
+
+Como publicar
+Suba esta pasta inteira na hospedagem, por exemplo arrastando para a Vercel ou para o Netlify Drop, ou enviando por FTP.
+Não precisa de instalação nem de build.
+
+Antes de colocar no ar de verdade
+1. No index.html, apague a linha: <meta name="robots" content="noindex, nofollow">
+2. Apague o arquivo robots.txt (ou troque o conteúdo por "User-agent: *" e "Allow: /").
+3. Preencha os campos marcados entre colchetes [ ] (prazos, CNPJ, política de privacidade etc.).
+
+O formulário "Quero que me liguem" não grava dados: ele abre o WhatsApp da clínica (11 94254-3154) com nome, telefone, motivo e horário preenchidos.
